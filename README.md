@@ -32,8 +32,7 @@ FFmpeg官方网站教程：https://trac.ffmpeg.org/wiki/CompilationGuide/macOS
 下载静态构建安装包，配置环境变量【推荐】
 
 下载地址：https://ffmpeg.org/download.html
-1. 鼠标移动到macOS苹果图标上，在弹出的界面中，点击“
-                Static builds for macOS 64-bit”
+1. 鼠标移动到macOS苹果图标上，在弹出的界面中，点击“Static builds for macOS 64-bit”
 
 2. 根据需要下载静态编译的 FFmpeg 二进制文件
 如果看文章的 帅哥美女 的磁盘空间充裕，或计划系统性地学习FFmpeg，推荐安装完整组件包（含 ffmpeg、ffplay、ffprobe 和 ffserver），以便后续灵活调用所有功能模块
@@ -84,6 +83,7 @@ if [ -f ~/.bashrc ]; then
     source ~/.bashrc
 fi
 export PATH="/usr/local/ffmpeg/bin:$PATH"
+
 如果没有类似的设置，请添加。
 3). 应用配置
 保存并退出编辑器（使用 CTRL + O 保存，CTRL + X 退出）。
@@ -127,10 +127,13 @@ ffmpeg -version
 
 使用方法
 将脚本保存为 configure_ffmpeg_cn.sh
+
 赋予执行权限：
 chmod +x configure_ffmpeg_cn.sh
+
 运行脚本：
 ./configure_ffmpeg_cn.sh
+
 根据提示输入 ffmpeg 的路径（如 /usr/local/ffmpeg/bin）。
 
 ​
