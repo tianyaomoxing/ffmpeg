@@ -12,6 +12,7 @@
 
 没有安装homebrew或者homebrew安装失败的可以使用这个脚本：
 该脚本网上找的，亲测有效
+
 **2025年推荐安装命令（自动适配芯片架构）**
 
 ```bash
@@ -25,6 +26,7 @@
 
 FFmpeg官方网站教程：[https://trac.ffmpeg.org/wiki/CompilationGuide/macOS](https://trac.ffmpeg.org/wiki/CompilationGuide/macOS)
 大家按照教程在终端执行即可
+
 页面片段截取：
 ![ffmpeg官方安装教程](https://i-blog.csdnimg.cn/direct/2d58346aade04d5b85d41c695283abf8.png)
 缺点：操作复杂，遇到问题需要查询资料，网络环境和系统要求，或者因为国内网络访问可能不稳定，且不支持断点续传造成失败，构建耗时较久
@@ -50,6 +52,7 @@ echo $SHELL
 ```
 例如我的苹果系统输出的是`/bin/bash，`说明默认的 shell 是 bash 而不是 zsh
 ​
+
 从 macOS Catalina (10.15)开始，zsh (Z shell) 是所有新建用户帐户的默认 Shell。 
 bash 是 macOS Mojave(10.14) 及更早版本中的默认 Shell，或者低版本系统升级后的shell默认可能也是bash
 
